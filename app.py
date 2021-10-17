@@ -26,3 +26,6 @@ def prediction():
 
    return jsonify(response)
 
+@app.route('/', methods=['GET'])
+def home():
+   return "MassCheck AI API"
